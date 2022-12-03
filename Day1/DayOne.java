@@ -10,7 +10,7 @@ public class DayOne {
         elfArrayList.add(0);
 
         try {
-            File file = new File("P:\\Coding\\Java\\AOC2022\\Day1\\input.txt");
+            File file = new File("P:\\Coding\\Java\\AOC2022\\Day1\\input");
             Scanner sc = new Scanner(file);
             while (sc.hasNextLine()) {
                 String nextLine = sc.nextLine();
